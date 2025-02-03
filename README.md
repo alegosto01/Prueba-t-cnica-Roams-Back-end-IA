@@ -67,17 +67,6 @@ The API will be available at:
 
 ---
 
-## Project Structure
-```
-.
-├── app.py  # Main FastAPI application
-├── history.db  # SQLite database (auto-generated)
-├── requirements.txt  # List of dependencies
-└── README.md  # Documentation
-```
-
----
-
 ## How It Works
 - The API loads a **pretrained GPT-2 model** from Hugging Face.
 - Users send a **POST request** with a prompt to generate text.
